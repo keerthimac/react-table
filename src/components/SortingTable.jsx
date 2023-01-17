@@ -5,7 +5,7 @@ import { GROUP_COLUMNS, COLUMNS } from "./columns";
 import "./table.css";
 
 function SortingTable() {
-  const columns = useMemo(() => GROUP_COLUMNS, []);
+  const columns = useMemo(() => COLUMNS, []);
   const data = useMemo(() => mockData, []);
 
   const {
